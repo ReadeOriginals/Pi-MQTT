@@ -1,6 +1,6 @@
 # Pi-MQTT
 MQTT Framwork for Raspberry Pi and Pi Pico using Mosquitto, intended to be used/built upon for future IOT projects.
-See "releases" for the different versions of the code developed.
+See "Releases" for the different versions of the code developed.
 
 # v0.1.0
 This version allows for basic communication between the Pi client and the PC client, using the broker. The Pi connects to the broker and publishes the currently measured temperature to the subscription "temperature", in which the PC client subscribes to and then reads and prints the temperature value to the console. It is inefficient due to the use of threading.
